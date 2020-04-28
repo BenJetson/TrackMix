@@ -25,6 +25,7 @@
 		9E7B4ABF2457BAAB00B0D8FD /* TrackMix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrackMix.entitlements; sourceTree = "<group>"; };
 		9E7B4AC52457D77D00B0D8FD /* Track.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
 		9E7B4AC62457D77D00B0D8FD /* Track.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		9E7B4AC82457DF9A00B0D8FD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		9E7B4AA82457BAAA00B0D8FD = {
 			isa = PBXGroup;
 			children = (
+				9E7B4AC82457DF9A00B0D8FD /* README.md */,
 				9E7B4AB32457BAAA00B0D8FD /* TrackMix */,
 				9E7B4AB22457BAAA00B0D8FD /* Products */,
 			);
