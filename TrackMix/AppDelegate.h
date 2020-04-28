@@ -8,8 +8,18 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class Track;
+
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property (strong) Track *track;
+@property (weak) IBOutlet NSTextField *textField;
+@property (weak) IBOutlet NSSlider *slider;
+
+- (IBAction)mute:(id)sender;
+- (IBAction)takeFloatValueForVolumeFrom:(id)sender;
+
+- (void) updateUserInterface;
 
 @end
 

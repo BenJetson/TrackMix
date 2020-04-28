@@ -11,6 +11,7 @@
 		9E7B4AB82457BAAB00B0D8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E7B4AB72457BAAB00B0D8FD /* Assets.xcassets */; };
 		9E7B4ABB2457BAAB00B0D8FD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E7B4AB92457BAAB00B0D8FD /* MainMenu.xib */; };
 		9E7B4ABE2457BAAB00B0D8FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B4ABD2457BAAB00B0D8FD /* main.m */; };
+		9E7B4AC72457D77D00B0D8FD /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B4AC62457D77D00B0D8FD /* Track.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		9E7B4ABC2457BAAB00B0D8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E7B4ABD2457BAAB00B0D8FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9E7B4ABF2457BAAB00B0D8FD /* TrackMix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrackMix.entitlements; sourceTree = "<group>"; };
+		9E7B4AC52457D77D00B0D8FD /* Track.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		9E7B4AC62457D77D00B0D8FD /* Track.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 				9E7B4ABC2457BAAB00B0D8FD /* Info.plist */,
 				9E7B4ABD2457BAAB00B0D8FD /* main.m */,
 				9E7B4ABF2457BAAB00B0D8FD /* TrackMix.entitlements */,
+				9E7B4AC52457D77D00B0D8FD /* Track.h */,
+				9E7B4AC62457D77D00B0D8FD /* Track.m */,
 			);
 			path = TrackMix;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E7B4AC72457D77D00B0D8FD /* Track.m in Sources */,
 				9E7B4ABE2457BAAB00B0D8FD /* main.m in Sources */,
 				9E7B4AB62457BAAA00B0D8FD /* AppDelegate.m in Sources */,
 			);
